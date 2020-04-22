@@ -5,6 +5,7 @@ phases:
       - echo "buuild-ssdtarted-1"
       - ls
       - pwd
+      - composer install
 artifacts:
   files:
     - '**/*'
